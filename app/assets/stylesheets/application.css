@@ -1,0 +1,81 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.actions{
+    margin-bottom: 10px;
+}
+.user-form-container{
+    margin:  auto;
+    width: 80%;
+    text-align: left;
+}
+.notice{
+    margin:0;
+    padding-top: 0px;
+    text-align: left;
+}
+.alert{
+    margin: 0px;
+    padding: 0;
+    height: 50px;
+    text-align: left;
+}
+.dismiss-button{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.form-horizontal{
+    text-align: left;
+}
+
+.form-horizontal h2{
+    text-align: center;
+}
+
+.form-holder{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.form-holder .form-signup{
+    position: relative;
+    top: calc(50% - 146px);
+
+}
+
+.form-login-section{
+    padding: 0;
+}
+
+.form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
